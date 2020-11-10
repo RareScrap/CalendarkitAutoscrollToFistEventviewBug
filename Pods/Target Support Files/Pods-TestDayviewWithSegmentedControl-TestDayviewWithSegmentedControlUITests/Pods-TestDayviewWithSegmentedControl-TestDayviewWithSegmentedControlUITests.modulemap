@@ -1,0 +1,6 @@
+framework module Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests {
+  umbrella header "Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

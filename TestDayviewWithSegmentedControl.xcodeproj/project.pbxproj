@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39041F33255A761200E41A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F32255A761200E41A55 /* AppDelegate.swift */; };
+		39041F35255A761200E41A55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F34255A761200E41A55 /* SceneDelegate.swift */; };
+		39041F37255A761200E41A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F36255A761200E41A55 /* ViewController.swift */; };
+		39041F3A255A761200E41A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39041F38255A761200E41A55 /* Main.storyboard */; };
+		39041F3C255A761500E41A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39041F3B255A761500E41A55 /* Assets.xcassets */; };
+		39041F3F255A761500E41A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39041F3D255A761500E41A55 /* LaunchScreen.storyboard */; };
+		39041F4A255A761600E41A55 /* TestDayviewWithSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F49255A761600E41A55 /* TestDayviewWithSegmentedControlTests.swift */; };
+		39041F55255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F54255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.swift */; };
+		39041F69255A77BF00E41A55 /* SegmentedHostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F68255A77BF00E41A55 /* SegmentedHostViewController.swift */; };
+		39041F6E255A7A3A00E41A55 /* MyDayviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39041F6D255A7A3A00E41A55 /* MyDayviewController.swift */; };
+		3E717A79D51D774CC9C6EA5C /* Pods_TestDayviewWithSegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57E1EAD82981A0FED519A2A /* Pods_TestDayviewWithSegmentedControl.framework */; };
+		9D04FCE946C0AA8DBBE06F30 /* Pods_TestDayviewWithSegmentedControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4E3CEA118326C8281F47D9 /* Pods_TestDayviewWithSegmentedControlTests.framework */; };
+		C3FB567C2995AEEE30680902 /* Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A828651BBF70DD23B8C6B1B /* Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39041F46255A761600E41A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39041F27255A761200E41A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39041F2E255A761200E41A55;
+			remoteInfo = TestDayviewWithSegmentedControl;
+		};
+		39041F51255A761600E41A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39041F27255A761200E41A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39041F2E255A761200E41A55;
+			remoteInfo = TestDayviewWithSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E4E3CEA118326C8281F47D9 /* Pods_TestDayviewWithSegmentedControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDayviewWithSegmentedControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A025FE6BD35D6FAE41BCD72 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.release.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F0F940164D34672359338A6 /* Pods-TestDayviewWithSegmentedControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControlTests.release.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControlTests/Pods-TestDayviewWithSegmentedControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		39041F2F255A761200E41A55 /* TestDayviewWithSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDayviewWithSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39041F32255A761200E41A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39041F34255A761200E41A55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39041F36255A761200E41A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39041F39255A761200E41A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39041F3B255A761500E41A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39041F3E255A761500E41A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39041F40255A761500E41A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39041F45255A761600E41A55 /* TestDayviewWithSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDayviewWithSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39041F49255A761600E41A55 /* TestDayviewWithSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDayviewWithSegmentedControlTests.swift; sourceTree = "<group>"; };
+		39041F4B255A761600E41A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39041F50255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDayviewWithSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39041F54255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDayviewWithSegmentedControlUITests.swift; sourceTree = "<group>"; };
+		39041F56255A761600E41A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39041F68255A77BF00E41A55 /* SegmentedHostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedHostViewController.swift; sourceTree = "<group>"; };
+		39041F6D255A7A3A00E41A55 /* MyDayviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayviewController.swift; sourceTree = "<group>"; };
+		61518E72E48A13E42DCE6F96 /* Pods-TestDayviewWithSegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControl.debug.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControl/Pods-TestDayviewWithSegmentedControl.debug.xcconfig"; sourceTree = "<group>"; };
+		7C72F7699B65D92AC72DE797 /* Pods-TestDayviewWithSegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControl.release.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControl/Pods-TestDayviewWithSegmentedControl.release.xcconfig"; sourceTree = "<group>"; };
+		9A828651BBF70DD23B8C6B1B /* Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57E1EAD82981A0FED519A2A /* Pods_TestDayviewWithSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDayviewWithSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFE346ECF27C4E20CF4D505 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC295123123251B23344E90 /* Pods-TestDayviewWithSegmentedControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDayviewWithSegmentedControlTests.debug.xcconfig"; path = "Target Support Files/Pods-TestDayviewWithSegmentedControlTests/Pods-TestDayviewWithSegmentedControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39041F2C255A761200E41A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E717A79D51D774CC9C6EA5C /* Pods_TestDayviewWithSegmentedControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F42255A761600E41A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D04FCE946C0AA8DBBE06F30 /* Pods_TestDayviewWithSegmentedControlTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F4D255A761600E41A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FB567C2995AEEE30680902 /* Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39041F26255A761200E41A55 = {
+			isa = PBXGroup;
+			children = (
+				39041F31255A761200E41A55 /* TestDayviewWithSegmentedControl */,
+				39041F48255A761600E41A55 /* TestDayviewWithSegmentedControlTests */,
+				39041F53255A761600E41A55 /* TestDayviewWithSegmentedControlUITests */,
+				39041F30255A761200E41A55 /* Products */,
+				3E9C9BFA334DD3BEF573920A /* Pods */,
+				E61DF6715A03E085BB5245C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39041F30255A761200E41A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39041F2F255A761200E41A55 /* TestDayviewWithSegmentedControl.app */,
+				39041F45255A761600E41A55 /* TestDayviewWithSegmentedControlTests.xctest */,
+				39041F50255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39041F31255A761200E41A55 /* TestDayviewWithSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				39041F32255A761200E41A55 /* AppDelegate.swift */,
+				39041F34255A761200E41A55 /* SceneDelegate.swift */,
+				39041F36255A761200E41A55 /* ViewController.swift */,
+				39041F38255A761200E41A55 /* Main.storyboard */,
+				39041F3B255A761500E41A55 /* Assets.xcassets */,
+				39041F3D255A761500E41A55 /* LaunchScreen.storyboard */,
+				39041F40255A761500E41A55 /* Info.plist */,
+				39041F68255A77BF00E41A55 /* SegmentedHostViewController.swift */,
+				39041F6D255A7A3A00E41A55 /* MyDayviewController.swift */,
+			);
+			path = TestDayviewWithSegmentedControl;
+			sourceTree = "<group>";
+		};
+		39041F48255A761600E41A55 /* TestDayviewWithSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				39041F49255A761600E41A55 /* TestDayviewWithSegmentedControlTests.swift */,
+				39041F4B255A761600E41A55 /* Info.plist */,
+			);
+			path = TestDayviewWithSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		39041F53255A761600E41A55 /* TestDayviewWithSegmentedControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39041F54255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.swift */,
+				39041F56255A761600E41A55 /* Info.plist */,
+			);
+			path = TestDayviewWithSegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+		3E9C9BFA334DD3BEF573920A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61518E72E48A13E42DCE6F96 /* Pods-TestDayviewWithSegmentedControl.debug.xcconfig */,
+				7C72F7699B65D92AC72DE797 /* Pods-TestDayviewWithSegmentedControl.release.xcconfig */,
+				DDFE346ECF27C4E20CF4D505 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.debug.xcconfig */,
+				2A025FE6BD35D6FAE41BCD72 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.release.xcconfig */,
+				FAC295123123251B23344E90 /* Pods-TestDayviewWithSegmentedControlTests.debug.xcconfig */,
+				2F0F940164D34672359338A6 /* Pods-TestDayviewWithSegmentedControlTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E61DF6715A03E085BB5245C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57E1EAD82981A0FED519A2A /* Pods_TestDayviewWithSegmentedControl.framework */,
+				9A828651BBF70DD23B8C6B1B /* Pods_TestDayviewWithSegmentedControl_TestDayviewWithSegmentedControlUITests.framework */,
+				1E4E3CEA118326C8281F47D9 /* Pods_TestDayviewWithSegmentedControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39041F2E255A761200E41A55 /* TestDayviewWithSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39041F59255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControl" */;
+			buildPhases = (
+				410A571717F2D6970361A39B /* [CP] Check Pods Manifest.lock */,
+				39041F2B255A761200E41A55 /* Sources */,
+				39041F2C255A761200E41A55 /* Frameworks */,
+				39041F2D255A761200E41A55 /* Resources */,
+				B8A13AF1144AD9012EF32AFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDayviewWithSegmentedControl;
+			productName = TestDayviewWithSegmentedControl;
+			productReference = 39041F2F255A761200E41A55 /* TestDayviewWithSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39041F44255A761600E41A55 /* TestDayviewWithSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39041F5C255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControlTests" */;
+			buildPhases = (
+				02786EABE1DBE2C1050FA188 /* [CP] Check Pods Manifest.lock */,
+				39041F41255A761600E41A55 /* Sources */,
+				39041F42255A761600E41A55 /* Frameworks */,
+				39041F43255A761600E41A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39041F47255A761600E41A55 /* PBXTargetDependency */,
+			);
+			name = TestDayviewWithSegmentedControlTests;
+			productName = TestDayviewWithSegmentedControlTests;
+			productReference = 39041F45255A761600E41A55 /* TestDayviewWithSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39041F4F255A761600E41A55 /* TestDayviewWithSegmentedControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39041F5F255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControlUITests" */;
+			buildPhases = (
+				F87C7F957471DD0BE1E94729 /* [CP] Check Pods Manifest.lock */,
+				39041F4C255A761600E41A55 /* Sources */,
+				39041F4D255A761600E41A55 /* Frameworks */,
+				39041F4E255A761600E41A55 /* Resources */,
+				F75A9FECE6BA68BCEA0ADAD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39041F52255A761600E41A55 /* PBXTargetDependency */,
+			);
+			name = TestDayviewWithSegmentedControlUITests;
+			productName = TestDayviewWithSegmentedControlUITests;
+			productReference = 39041F50255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39041F27255A761200E41A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					39041F2E255A761200E41A55 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					39041F44255A761600E41A55 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 39041F2E255A761200E41A55;
+					};
+					39041F4F255A761600E41A55 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 39041F2E255A761200E41A55;
+					};
+				};
+			};
+			buildConfigurationList = 39041F2A255A761200E41A55 /* Build configuration list for PBXProject "TestDayviewWithSegmentedControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39041F26255A761200E41A55;
+			productRefGroup = 39041F30255A761200E41A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39041F2E255A761200E41A55 /* TestDayviewWithSegmentedControl */,
+				39041F44255A761600E41A55 /* TestDayviewWithSegmentedControlTests */,
+				39041F4F255A761600E41A55 /* TestDayviewWithSegmentedControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39041F2D255A761200E41A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39041F3F255A761500E41A55 /* LaunchScreen.storyboard in Resources */,
+				39041F3C255A761500E41A55 /* Assets.xcassets in Resources */,
+				39041F3A255A761200E41A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F43255A761600E41A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F4E255A761600E41A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02786EABE1DBE2C1050FA188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestDayviewWithSegmentedControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		410A571717F2D6970361A39B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestDayviewWithSegmentedControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A13AF1144AD9012EF32AFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl/Pods-TestDayviewWithSegmentedControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl/Pods-TestDayviewWithSegmentedControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl/Pods-TestDayviewWithSegmentedControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75A9FECE6BA68BCEA0ADAD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87C7F957471DD0BE1E94729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39041F2B255A761200E41A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39041F6E255A7A3A00E41A55 /* MyDayviewController.swift in Sources */,
+				39041F37255A761200E41A55 /* ViewController.swift in Sources */,
+				39041F33255A761200E41A55 /* AppDelegate.swift in Sources */,
+				39041F35255A761200E41A55 /* SceneDelegate.swift in Sources */,
+				39041F69255A77BF00E41A55 /* SegmentedHostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F41255A761600E41A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39041F4A255A761600E41A55 /* TestDayviewWithSegmentedControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39041F4C255A761600E41A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39041F55255A761600E41A55 /* TestDayviewWithSegmentedControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39041F47255A761600E41A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39041F2E255A761200E41A55 /* TestDayviewWithSegmentedControl */;
+			targetProxy = 39041F46255A761600E41A55 /* PBXContainerItemProxy */;
+		};
+		39041F52255A761600E41A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39041F2E255A761200E41A55 /* TestDayviewWithSegmentedControl */;
+			targetProxy = 39041F51255A761600E41A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39041F38255A761200E41A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39041F39255A761200E41A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39041F3D255A761500E41A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39041F3E255A761500E41A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39041F57255A761600E41A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39041F58255A761600E41A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39041F5A255A761600E41A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61518E72E48A13E42DCE6F96 /* Pods-TestDayviewWithSegmentedControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39041F5B255A761600E41A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C72F7699B65D92AC72DE797 /* Pods-TestDayviewWithSegmentedControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39041F5D255A761600E41A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC295123123251B23344E90 /* Pods-TestDayviewWithSegmentedControlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControlTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDayviewWithSegmentedControl.app/TestDayviewWithSegmentedControl";
+			};
+			name = Debug;
+		};
+		39041F5E255A761600E41A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0F940164D34672359338A6 /* Pods-TestDayviewWithSegmentedControlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControlTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDayviewWithSegmentedControl.app/TestDayviewWithSegmentedControl";
+			};
+			name = Release;
+		};
+		39041F60255A761600E41A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFE346ECF27C4E20CF4D505 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestDayviewWithSegmentedControl;
+			};
+			name = Debug;
+		};
+		39041F61255A761600E41A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A025FE6BD35D6FAE41BCD72 /* Pods-TestDayviewWithSegmentedControl-TestDayviewWithSegmentedControlUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8S6FURL87;
+				INFOPLIST_FILE = TestDayviewWithSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.rarescrap.TestDayviewWithSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestDayviewWithSegmentedControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39041F2A255A761200E41A55 /* Build configuration list for PBXProject "TestDayviewWithSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39041F57255A761600E41A55 /* Debug */,
+				39041F58255A761600E41A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39041F59255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39041F5A255A761600E41A55 /* Debug */,
+				39041F5B255A761600E41A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39041F5C255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39041F5D255A761600E41A55 /* Debug */,
+				39041F5E255A761600E41A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39041F5F255A761600E41A55 /* Build configuration list for PBXNativeTarget "TestDayviewWithSegmentedControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39041F60255A761600E41A55 /* Debug */,
+				39041F61255A761600E41A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39041F27255A761200E41A55 /* Project object */;
+}
